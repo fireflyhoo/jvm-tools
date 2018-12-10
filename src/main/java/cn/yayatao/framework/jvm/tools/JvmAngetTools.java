@@ -18,7 +18,7 @@ import com.sun.tools.attach.VirtualMachine;
  */
 public class JvmAngetTools {
 
-	public static Instrumentation instrumentation;
+	private static Instrumentation instrumentation;
 
 	public static JvmAngetTools getInstance() {
 		return Hander.instance;
